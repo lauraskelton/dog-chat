@@ -13,6 +13,6 @@ iOS App
 
 The DogChat iOS app is like FaceTime for dogs. There is a live video stream displayed fullscreen, with a custom button interface overlaid on top of it. The main button is used to tell the Raspberry Pi to dispense a treat to the dog.
 
-![DogChat Interface](https://github.com/lauraskelton "DogChat Interface")
+![DogChat Interface](https://raw.githubusercontent.com/lauraskelton/dog-chat/master/Examples/demo_dogchat.jpg "DogChat Interface")
 
-![DogChat Notification](https://github.com/lauraskelton "DogChat Notification")
+![DogChat Notification](https://github.com/lauraskelton/dog-chat/raw/master/Examples/demo_notification.jpg "DogChat Notification")
