@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8265B222199C514200C95410 /* adacam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8265B221199C514200C95410 /* adacam.jpg */; };
+		8265B224199C51E900C95410 /* adamessage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8265B223199C51E900C95410 /* adamessage.jpg */; };
+		8265B226199C58CE00C95410 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8265B225199C58CE00C95410 /* README.md */; };
 		82F4795F199BE7DD00D55031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F4795E199BE7DD00D55031 /* Foundation.framework */; };
 		82F47961199BE7DD00D55031 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F47960199BE7DD00D55031 /* CoreGraphics.framework */; };
 		82F47963199BE7DD00D55031 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F47962199BE7DD00D55031 /* UIKit.framework */; };
@@ -21,6 +24,9 @@
 		82F47980199BE7DD00D55031 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F47962199BE7DD00D55031 /* UIKit.framework */; };
 		82F47988199BE7DD00D55031 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82F47986199BE7DD00D55031 /* InfoPlist.strings */; };
 		82F4798A199BE7DD00D55031 /* DogChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F47989199BE7DD00D55031 /* DogChatTests.m */; };
+		82F47994199BE80100D55031 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F47993199BE80100D55031 /* MediaPlayer.framework */; };
+		82F47996199BF64C00D55031 /* dogbonebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F47995199BF64C00D55031 /* dogbonebutton.png */; };
+		82F47999199BFA8200D55031 /* dog_outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F47998199BFA8200D55031 /* dog_outline.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8265B221199C514200C95410 /* adacam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adacam.jpg; sourceTree = "<group>"; };
+		8265B223199C51E900C95410 /* adamessage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adamessage.jpg; sourceTree = "<group>"; };
+		8265B225199C58CE00C95410 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		82F4795B199BE7DD00D55031 /* DogChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F4795E199BE7DD00D55031 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82F47960199BE7DD00D55031 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +62,9 @@
 		82F47985199BE7DD00D55031 /* DogChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogChatTests-Info.plist"; sourceTree = "<group>"; };
 		82F47987199BE7DD00D55031 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82F47989199BE7DD00D55031 /* DogChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogChatTests.m; sourceTree = "<group>"; };
+		82F47993199BE80100D55031 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		82F47995199BF64C00D55031 /* dogbonebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dogbonebutton.png; sourceTree = "<group>"; };
+		82F47998199BFA8200D55031 /* dog_outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog_outline.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F47994199BE80100D55031 /* MediaPlayer.framework in Frameworks */,
 				82F47961199BE7DD00D55031 /* CoreGraphics.framework in Frameworks */,
 				82F47963199BE7DD00D55031 /* UIKit.framework in Frameworks */,
 				82F4795F199BE7DD00D55031 /* Foundation.framework in Frameworks */,
@@ -82,6 +95,7 @@
 		82F47952199BE7DD00D55031 = {
 			isa = PBXGroup;
 			children = (
+				8265B225199C58CE00C95410 /* README.md */,
 				82F47964199BE7DD00D55031 /* DogChat */,
 				82F47983199BE7DD00D55031 /* DogChatTests */,
 				82F4795D199BE7DD00D55031 /* Frameworks */,
@@ -101,6 +115,7 @@
 		82F4795D199BE7DD00D55031 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				82F47993199BE80100D55031 /* MediaPlayer.framework */,
 				82F4795E199BE7DD00D55031 /* Foundation.framework */,
 				82F47960199BE7DD00D55031 /* CoreGraphics.framework */,
 				82F47962199BE7DD00D55031 /* UIKit.framework */,
@@ -114,10 +129,9 @@
 			children = (
 				82F4796D199BE7DD00D55031 /* AppDelegate.h */,
 				82F4796E199BE7DD00D55031 /* AppDelegate.m */,
-				82F47970199BE7DD00D55031 /* Main.storyboard */,
 				82F47973199BE7DD00D55031 /* ViewController.h */,
 				82F47974199BE7DD00D55031 /* ViewController.m */,
-				82F47976199BE7DD00D55031 /* Images.xcassets */,
+				82F47997199BF65200D55031 /* Resources */,
 				82F47965199BE7DD00D55031 /* Supporting Files */,
 			);
 			path = DogChat;
@@ -150,6 +164,19 @@
 				82F47986199BE7DD00D55031 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82F47997199BF65200D55031 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82F47998199BFA8200D55031 /* dog_outline.png */,
+				82F47995199BF64C00D55031 /* dogbonebutton.png */,
+				8265B221199C514200C95410 /* adacam.jpg */,
+				8265B223199C51E900C95410 /* adamessage.jpg */,
+				82F47970199BE7DD00D55031 /* Main.storyboard */,
+				82F47976199BE7DD00D55031 /* Images.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +257,12 @@
 			files = (
 				82F47977199BE7DD00D55031 /* Images.xcassets in Resources */,
 				82F47969199BE7DD00D55031 /* InfoPlist.strings in Resources */,
+				8265B222199C514200C95410 /* adacam.jpg in Resources */,
+				82F47999199BFA8200D55031 /* dog_outline.png in Resources */,
+				82F47996199BF64C00D55031 /* dogbonebutton.png in Resources */,
 				82F47972199BE7DD00D55031 /* Main.storyboard in Resources */,
+				8265B226199C58CE00C95410 /* README.md in Resources */,
+				8265B224199C51E900C95410 /* adamessage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +488,7 @@
 				82F4798F199BE7DD00D55031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82F47990199BE7DD00D55031 /* Build configuration list for PBXNativeTarget "DogChatTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +497,7 @@
 				82F47992199BE7DD00D55031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
